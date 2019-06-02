@@ -56,7 +56,7 @@ def dosomething2():
 
 
 # The process route
-@app.route('/process', methods=['POST'])
+@application.route('/process', methods=['POST'])
 def process():
     url1 = request.form['url1']
     url2 = request.form['url2']
